@@ -16,9 +16,9 @@ today's date is {today}
 
 # Define our model
 model = init_chat_model(
-    # model_provider="google_genai", model="gemini-2.5-flash-preview-04-17"
-    model_provider="anthropic",
-    model="claude-3-5-haiku-20241022",
+    model_provider="google_genai", model="gemini-2.5-flash-preview-04-17"
+    # model_provider="anthropic",
+    # model="claude-3-5-haiku-20241022",
 )
 
 async def make_graph():
